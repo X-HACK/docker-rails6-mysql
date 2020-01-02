@@ -5,6 +5,7 @@ RUN apk upgrade
 
 RUN apk add --no-cache \
       bash git vim openssh openssl yarn sudo su-exec shadow tzdata \
+      mysql-client mysql-dev\
       build-base libxml2-dev libxslt-dev
 
 ARG UID=1000
