@@ -19,3 +19,4 @@
 .byebug_history
 db
 apps
+.DS_Store
